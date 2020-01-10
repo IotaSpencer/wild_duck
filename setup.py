@@ -4,15 +4,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="wildduck",
-    version="0.0.1",
+    name="wild_duck",
+    version="0.0.2",
     author="Ken Spencer",
     author_email="me@iotaspencer.me",
     description="""An API client to interface with the wildduck
      webmail application API.""",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/IotaSpencer/wildduck-py",
+    url="https://github.com/IotaSpencer/wild_duck-py",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
