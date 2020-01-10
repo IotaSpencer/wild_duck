@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wild_duck",
-    version="0.0.2",
+    version="0.0.3",
     author="Ken Spencer",
     author_email="me@iotaspencer.me",
     description="""An API client to interface with the wildduck
