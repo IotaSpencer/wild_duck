@@ -1,17 +1,17 @@
-on: 
-  push:
-    branches:
-      - 'master'
-      - 'develop'
-      - 'releases/**'
-    tags:
-    - v*.*.*
-jobs: 
-  pypi:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Publish to PYPI
-        uses: pypa/gh-action-pypi-publish@v1.0.0a0
-        with:
-          user: __token__
-          password: ${{ secrets.pypi_password }}
+# on: 
+#   push:
+#     branches:
+#       - 'master'
+#       - 'develop'
+#       - 'releases/**'
+#     tags:
+#     - v*.*.*
+# jobs: 
+#   pypi:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Publish to PYPI
+#         uses: pypa/gh-action-pypi-publish@v1.0.0a0
+#         with:
+#           user: __token__
+#           password: ${{ secrets.pypi_password }}
