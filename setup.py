@@ -24,4 +24,5 @@ setuptools.setup(
             "wildduck=wildduck:main",
         ],
     },
+    requires=['requests']
 )
